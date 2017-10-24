@@ -1,6 +1,6 @@
 {
   "name": "probot-app-release",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub App that creates GitHub releases",
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
   "contributors": [],
