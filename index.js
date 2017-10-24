@@ -4,6 +4,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+const parseTitle = require('./parse-title.js');
+
 module.exports = robot => {
   robot.on('pull_request.closed', landed);
 
@@ -17,7 +19,9 @@ module.exports = robot => {
     const {github} = context;
     const labels = await github.issues.getIssueLabels(context.issue());
 
-    const isRelease = labels.data.some(label => label.name === 'Release');
+    const isRelease = labels.data.some(
+      label => label.name.toLowerCase() === 'release',
+    );
 
     if (!isRelease) {
       return;
