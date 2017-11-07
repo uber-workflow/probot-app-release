@@ -50,8 +50,7 @@ module.exports = robot => {
           "branch": "master",
           "message": "Deploy ${name}",
           "author": {
-            "name": "Kevin Grandon",
-            "email": "keving@uber.com"
+            "name": "${pr.user.login}"
           },
           "env": {
             "PUBLISH_REPO": "${ssh_url}"
