@@ -5,6 +5,7 @@
  */
 
 const parseTitle = require('./parse-title.js');
+const exec = require('child_process').exec;
 
 module.exports = robot => {
   robot.on('pull_request.closed', landed);
@@ -38,5 +39,29 @@ module.exports = robot => {
         target_commitish: pr.merge_commit_sha,
       }),
     );
+
+    // Kick off a deployment through buildkite
+    const {name, ssh_url} = context.payload.repository;
+    const curlCommand = `curl \
+      -H "Authorization: Bearer ${process.env.BUILDKITE_TOKEN}" \
+      -X POST "https://api.buildkite.com/v2/organizations/uberopensource/pipelines/npm-deploy/builds" \
+        -d '{
+          "commit": "HEAD",
+          "branch": "master",
+          "message": "Deploy ${name}",
+          "author": {
+            "name": "${pr.user.login}"
+          },
+          "env": {
+            "PUBLISH_REPO": "${ssh_url}"
+          }
+        }'`;
+
+    exec(curlCommand, error => {
+      if (error !== null) {
+        // eslint-disable-next-line no-console
+        console.warn('exec error: ' + error);
+      }
+    });
   }
 };
