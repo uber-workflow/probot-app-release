@@ -31,7 +31,7 @@ module.exports = robot => {
 
     github.repos.createRelease(
       context.repo({
-        body: pr.body,
+        body: pr.body || '',
         tag_name,
         prerelease,
         name: tag_name,
