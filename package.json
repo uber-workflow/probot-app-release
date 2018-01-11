@@ -21,7 +21,7 @@
     "eslint-plugin-prettier": "2.4.0",
     "jest": "22.0.5",
     "localtunnel": "1.8.3",
-    "prettier": "1.10.1"
+    "prettier": "1.10.2"
   },
   "engines": {
     "node": ">= 8.6.0"
