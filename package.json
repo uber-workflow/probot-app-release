@@ -13,7 +13,7 @@
     "fix": "eslint . --fix"
   },
   "dependencies": {
-    "probot": "4.1.0",
+    "probot": "5.0.0",
     "semver": "5.5.0"
   },
   "devDependencies": {
