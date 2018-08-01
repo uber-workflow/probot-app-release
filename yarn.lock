@@ -10,9 +10,9 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-"@octokit/rest@^15.6.0":
-  version "15.8.2"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-15.8.2.tgz#9da2c71bda88d93313b8a8f96b21e27a0b1386fb"
+"@octokit/rest@^15.9.4":
+  version "15.9.5"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-15.9.5.tgz#e356d202bd0b517e381f705ad77d98ccb84e0c65"
   dependencies:
     before-after-hook "^1.1.0"
     btoa-lite "^1.0.0"
@@ -495,9 +495,9 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-bottleneck@^2.2.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.3.0.tgz#587b89f9b7ea61bb28cd4cb558ee4b4a2da12c7a"
+bottleneck@^2.4.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.6.0.tgz#cbc557383fd1f63cadc87e1141b1ad766863b863"
 
 brace-expansion@^1.1.7:
   version "1.1.8"
@@ -988,9 +988,9 @@ domexception@^1.0.0:
   dependencies:
     webidl-conversions "^4.0.2"
 
-dotenv@~5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-5.0.1.tgz#a5317459bd3d79ab88cff6e44057a6a3fbb1fcef"
+dotenv@~6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.0.0.tgz#24e37c041741c5f4b25324958ebbc34bca965935"
 
 dtrace-provider@~0.8:
   version "0.8.6"
@@ -1245,9 +1245,9 @@ expect@^23.4.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-express-async-errors@^2.1.0:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/express-async-errors/-/express-async-errors-2.1.2.tgz#a5692a0763904109f27d9649b4f827cf89100f53"
+express-async-errors@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/express-async-errors/-/express-async-errors-3.0.0.tgz#457d06952504718276697cebf9c332bccf2944dd"
 
 express@^4.16.2:
   version "4.16.2"
@@ -3297,21 +3297,21 @@ private@^0.1.7:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
-probot@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-6.2.0.tgz#9c6d743dd172553db2bb687907cee11e9dc99b58"
+probot@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-7.0.1.tgz#8ee68e0f39b25b840243c7a8b9ae1ce7641fb403"
   dependencies:
-    "@octokit/rest" "^15.6.0"
+    "@octokit/rest" "^15.9.4"
     "@octokit/webhooks" "^3.1.1"
-    bottleneck "^2.2.0"
+    bottleneck "^2.4.0"
     bunyan "^1.8.12"
     bunyan-format "^0.2.1"
     bunyan-sentry-stream "^1.1.0"
     cache-manager "^2.4.0"
     commander "^2.11.0"
-    dotenv "~5.0.0"
+    dotenv "~6.0.0"
     express "^4.16.2"
-    express-async-errors "^2.1.0"
+    express-async-errors "^3.0.0"
     hbs "^4.0.1"
     js-yaml "^3.9.1"
     jsonwebtoken "^8.1.0"
@@ -3320,6 +3320,7 @@ probot@6.2.0:
     raven "^2.4.2"
     resolve "^1.4.0"
     semver "^5.5.0"
+    uuid "^3.2.1"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
@@ -4216,6 +4217,10 @@ uuid@3.0.0:
 uuid@^3.0.0, uuid@^3.1.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
+
+uuid@^3.2.1:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.1"
