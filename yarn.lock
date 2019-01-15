@@ -1001,9 +1001,9 @@ domexception@^1.0.0:
   dependencies:
     webidl-conversions "^4.0.2"
 
-dotenv@~6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.1.0.tgz#9853b6ca98292acb7dec67a95018fa40bccff42c"
+dotenv@~6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
 
 dtrace-provider@~0.8:
   version "0.8.6"
@@ -3357,9 +3357,9 @@ private@^0.1.7:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
-probot@7.4.0:
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-7.4.0.tgz#96a70148e8a114bcba75fd1a261155a559916cc5"
+probot@7.5.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-7.5.0.tgz#17f4441210c95b822a53dc9748fb17261a1aacdf"
   dependencies:
     "@octokit/rest" "^15.18.0"
     "@octokit/webhooks" "^5.0.2"
@@ -3370,7 +3370,7 @@ probot@7.4.0:
     bunyan-sentry-stream "^1.1.0"
     cache-manager "^2.4.0"
     commander "^2.19.0"
-    dotenv "~6.1.0"
+    dotenv "~6.2.0"
     express "^4.16.2"
     express-async-errors "^3.0.0"
     hbs "^4.0.1"
@@ -3383,7 +3383,7 @@ probot@7.4.0:
     raven "^2.4.2"
     resolve "^1.4.0"
     semver "^5.5.0"
-    supports-color "^5.5.0"
+    supports-color "^6.0.0"
     update-dotenv "^1.1.0"
     uuid "^3.2.1"
 
@@ -4053,9 +4053,9 @@ supports-color@^4.0.0:
   dependencies:
     has-flag "^2.0.0"
 
-supports-color@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
+supports-color@^6.0.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-6.1.0.tgz#0764abc69c63d5ac842dd4867e8d025e880df8f3"
   dependencies:
     has-flag "^3.0.0"
 
