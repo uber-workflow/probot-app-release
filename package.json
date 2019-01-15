@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "probot": "7.4.0",
-    "semver": "5.5.1"
+    "semver": "5.6.0"
   },
   "devDependencies": {
     "eslint": "5.12.0",
